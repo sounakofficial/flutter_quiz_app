@@ -27,7 +27,6 @@ class MyAppState extends State<MyApp> {
       _totalScore += score;
       _questionIndex += 1;
     });
-    print(_questionIndex);
   }
 
   @override
